@@ -6,6 +6,7 @@ This repository contains the foundation for an enterprise application that combi
 
 - `docs/PLAN.md` – Project plan and roadmap.
 - `src/cyberai/` – Python package for security and AI modules.
+- `src/ui.py` – Simple Streamlit interface for running assessments.
 - `tests/` – Unit tests for the codebase.
 - `requirements.txt` – Python dependencies.
 
@@ -18,6 +19,11 @@ This repository contains the foundation for an enterprise application that combi
 2. Run tests:
    ```bash
    pytest
+   ```
+
+3. Launch the web interface:
+   ```bash
+   streamlit run src/ui.py
    ```
 
 Use the plan in `docs/PLAN.md` to guide further development.
